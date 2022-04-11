@@ -6,6 +6,7 @@ zima = [11, 12, 1]
 
 
 def mesice():
+    #  mesic = input("zadejte měsíc: ")
     mesic = 6
     if mesic in jaro:
         print("Je jaro")
