@@ -1,6 +1,7 @@
 def prvocislo():
     try:
         cislo = float(input("zadejte čislo: "))
+        # if cislo <= 0 or cislo == 1:
         if cislo <= 0:
             print(f"{cislo} není prvočíslo")
             exit()
